@@ -8,10 +8,7 @@ Shows how to sign files, verify identities and signatures, and a look at what's 
 
 
 ## Use Hardware
-
-### Packages:
-_Ubuntu_: sudo apt install opensc
-To install support apps for signing documents and chrome extension integration on debian/ubuntu:  https://id.ee/index.php?id=34448
+_Ubuntu_: `sudo apt install opensc`
 
 #### List attached readers:
 ```
@@ -98,7 +95,7 @@ PIN [PUK]
 
 ## Verify a signature
 
-### Get signer certificate:
+### Get signer ccam ertificate:
 
 #### macOS:
 Export your signing certificate from DigiDoc 4 client to Apple Keychain, and then export it from Keychain to a PEM file.
