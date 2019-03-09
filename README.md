@@ -7,7 +7,7 @@ Shows how to sign files, verify identities and signatures, and a look at what's 
 
 
 
-## Use Hardware
+## Access card reader
 _Ubuntu_: `sudo apt install opensc`
 
 #### List attached readers:
