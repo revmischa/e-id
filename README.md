@@ -7,12 +7,12 @@ See how to sign files, verify identities and signatures, and a look at what's in
 
 ## Use Hardware
 
-### Packages:
-_Debian/Ubuntu_: `sudo apt install opensc`
+### Linux Depdencies:
+_Debian/Ubuntu_: `sudo apt install opensc openssl`
 
-To install support apps for signing documents and chrome extension integration on debian/ubuntu:  https://id.ee/index.php?id=34448
+To install support apps for signing documents and chrome extension integration:  https://id.ee/index.php?id=34448
 
-#### List attached readers:
+### List attached readers:
 ```
 $ opensc-tool -l
 # Detected readers (pcsc)
