@@ -83,8 +83,9 @@ PIN [PUK]
 ## Sign a file
 
 1. Make a hash of your file.
-  `wget http://mischa.lol/eeid/omgwall.txt`
-  `openssl dgst -binary -sha512 omgwall.txt > omghash`
+  ```wget http://mischa.lol/eeid/omgwall.txt
+openssl dgst -binary -sha512 omgwall.txt > omghash
+  ```
 
 2. Then sign the hash of your file:
 
