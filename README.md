@@ -98,14 +98,14 @@ pkcs15-crypt --sign --key 02 --sha-512 --raw -i omghash -f openssl > omgwall.ope
 
 ## Verify a signature
 
-### Get signer ccam ertificate:
+### Get the signer certificate:
 
 #### macOS:
 Export your signing certificate from DigiDoc 4 client to Apple Keychain, and then export it from Keychain to a PEM file.
 
 #### Linux:
 You can export your public key from the card with:
-`pkcs15-tool --read-public-key 2 > eeSigningCert.pem`
+`pkcs15-tool --read-public-key 02 > eeSigningCert.pem`
 
 ### Get public key:
 `openssl x509 -pubkey -noout -in eeSigningCert.pem > publicKey.pem`
