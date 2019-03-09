@@ -79,6 +79,26 @@ PIN [PUK]
         Type           : ascii-numeric
         Tries left     : 3
 ```
+#### Dump e-ID:
+```
+$ eidenv
+Using reader with a card: ACS ACR 38U-CCID 00 00
+Surname: SPIEGELMOCK
+Given names 1: MISCHA
+Sex: M
+Citizenship: USA
+Date of birth: xx.xx.xxxx
+Personal ID code: 38511060182
+Document number: N0176195
+Expiry date: 27.09.2023
+Place of birth: AMEERIKA \334HENDRIIGID / USA
+Issuing date: 27.09.2018
+Permit type:
+Remark 1: e-resident
+Remark 2:
+Remark 3:
+Remark 4
+```
 
 ## Sign a file
 
