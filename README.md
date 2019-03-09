@@ -98,7 +98,7 @@ PIN [PUK]
 
 ## Verify a signature
 
-### Get signer Ccrtificate:
+### Get signer certificate:
 
 #### macOS:
 Export your signing certificate from DigiDoc 4 client to Apple Keychain, and then export it from Keychain to a PEM file.
