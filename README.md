@@ -1,16 +1,15 @@
 # What is this?
-Instructions for interacting with an identity smartcard.
+Instructions for interacting with an identity smartcard. The examples here are using an Estonian e-Residency identity.
 
-The examples here are using an Estonian e-Residency identity.
-
-Shows how to sign files, verify identities and signatures, and a look at what's in your card and identity.
+See how to sign files, verify identities and signatures, and a look at what's in your card and identity.
 
 
 
 ## Use Hardware
 
 ### Packages:
-*Ubuntu*: sudo apt install opensc
+_Debian/Ubuntu_: `sudo apt install opensc`
+
 To install support apps for signing documents and chrome extension integration on debian/ubuntu:  https://id.ee/index.php?id=34448
 
 #### List attached readers:
