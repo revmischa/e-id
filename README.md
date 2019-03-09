@@ -89,8 +89,9 @@ openssl dgst -binary -sha512 omgwall.txt > omghash
   ```
 
 2. Then sign the hash of your file:
-
-  `pkcs15-crypt --sign --key 02 --sha-512 --raw -i omghash -f openssl > omgwall.openssl.sig`
+  ```
+pkcs15-crypt --sign --key 02 --sha-512 --raw -i omghash -f openssl > omgwall.openssl.sig
+  ```
   Generates a binary openssl signature file signed by your key on the card.
   Key 01 is for authentication, key 02 is for signing.
 
